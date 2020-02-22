@@ -1,0 +1,331 @@
+
+Compiling java/task-1...
+src/Main.java:43: error: ';' expected
+			int coinChange(int[] v, int S) {
+			              ^
+src/Main.java:43: error: <identifier> expected
+			int coinChange(int[] v, int S) {
+			                       ^
+src/Main.java:43: error: not a statement
+			int coinChange(int[] v, int S) {
+			                            ^
+src/Main.java:43: error: ';' expected
+			int coinChange(int[] v, int S) {
+			                             ^
+src/Main.java:48: error: ';' expected
+			int coinChange(int[] v, int rem, int[] count) {
+			              ^
+src/Main.java:48: error: <identifier> expected
+			int coinChange(int[] v, int rem, int[] count) {
+			                       ^
+src/Main.java:48: error: not a statement
+			int coinChange(int[] v, int rem, int[] count) {
+			                            ^
+src/Main.java:48: error: ';' expected
+			int coinChange(int[] v, int rem, int[] count) {
+			                               ^
+src/Main.java:48: error: ';' expected
+			int coinChange(int[] v, int rem, int[] count) {
+			                                            ^
+9 errors
+========================================
+Compiling java/task-1...
+src/Main.java:43: error: ';' expected
+			int coinChange(int[] v, int S) {
+			              ^
+src/Main.java:43: error: <identifier> expected
+			int coinChange(int[] v, int S) {
+			                       ^
+src/Main.java:43: error: not a statement
+			int coinChange(int[] v, int S) {
+			                            ^
+src/Main.java:43: error: ';' expected
+			int coinChange(int[] v, int S) {
+			                             ^
+src/Main.java:48: error: ';' expected
+			int coinChange(int[] v, int rem, int[] count) {
+			              ^
+src/Main.java:48: error: <identifier> expected
+			int coinChange(int[] v, int rem, int[] count) {
+			                       ^
+src/Main.java:48: error: not a statement
+			int coinChange(int[] v, int rem, int[] count) {
+			                            ^
+src/Main.java:48: error: ';' expected
+			int coinChange(int[] v, int rem, int[] count) {
+			                               ^
+src/Main.java:48: error: ';' expected
+			int coinChange(int[] v, int rem, int[] count) {
+			                                            ^
+9 errors
+========================================
+Compiling java/task-1...
+src/Main.java:43: error: ';' expected
+			int coinChange(int[] v, int S) {
+			              ^
+src/Main.java:43: error: <identifier> expected
+			int coinChange(int[] v, int S) {
+			                       ^
+src/Main.java:43: error: not a statement
+			int coinChange(int[] v, int S) {
+			                            ^
+src/Main.java:43: error: ';' expected
+			int coinChange(int[] v, int S) {
+			                             ^
+src/Main.java:48: error: ';' expected
+			int coinChange(int[] v, int rem, int[] count) {
+			              ^
+src/Main.java:48: error: <identifier> expected
+			int coinChange(int[] v, int rem, int[] count) {
+			                       ^
+src/Main.java:48: error: not a statement
+			int coinChange(int[] v, int rem, int[] count) {
+			                            ^
+src/Main.java:48: error: ';' expected
+			int coinChange(int[] v, int rem, int[] count) {
+			                               ^
+src/Main.java:48: error: ';' expected
+			int coinChange(int[] v, int rem, int[] count) {
+			                                            ^
+9 errors
+========================================
+Compiling java/task-1...
+src/Main.java:43: error: ';' expected
+			int coinChange(int[] v, int S) {
+			              ^
+src/Main.java:43: error: <identifier> expected
+			int coinChange(int[] v, int S) {
+			                       ^
+src/Main.java:43: error: not a statement
+			int coinChange(int[] v, int S) {
+			                            ^
+src/Main.java:43: error: ';' expected
+			int coinChange(int[] v, int S) {
+			                             ^
+src/Main.java:48: error: ';' expected
+			int coinChange(int[] v, int rem, int[] count) {
+			              ^
+src/Main.java:48: error: <identifier> expected
+			int coinChange(int[] v, int rem, int[] count) {
+			                       ^
+src/Main.java:48: error: not a statement
+			int coinChange(int[] v, int rem, int[] count) {
+			                            ^
+src/Main.java:48: error: ';' expected
+			int coinChange(int[] v, int rem, int[] count) {
+			                               ^
+src/Main.java:48: error: ';' expected
+			int coinChange(int[] v, int rem, int[] count) {
+			                                            ^
+9 errors
+========================================
+Compiling java/task-1...
+src/Main.java:43: error: ';' expected
+			int coinChange(int[] v, int S) {
+			              ^
+src/Main.java:43: error: <identifier> expected
+			int coinChange(int[] v, int S) {
+			                       ^
+src/Main.java:43: error: not a statement
+			int coinChange(int[] v, int S) {
+			                            ^
+src/Main.java:43: error: ';' expected
+			int coinChange(int[] v, int S) {
+			                             ^
+src/Main.java:48: error: ';' expected
+			int coinChange(int[] v, int rem, int[] count) {
+			              ^
+src/Main.java:48: error: <identifier> expected
+			int coinChange(int[] v, int rem, int[] count) {
+			                       ^
+src/Main.java:48: error: not a statement
+			int coinChange(int[] v, int rem, int[] count) {
+			                            ^
+src/Main.java:48: error: ';' expected
+			int coinChange(int[] v, int rem, int[] count) {
+			                               ^
+src/Main.java:48: error: ';' expected
+			int coinChange(int[] v, int rem, int[] count) {
+			                                            ^
+9 errors
+========================================
+Compiling java/task-1...
+src/Main.java:43: error: ';' expected
+			int coinChange(int[] v, int S) {
+			              ^
+src/Main.java:43: error: <identifier> expected
+			int coinChange(int[] v, int S) {
+			                       ^
+src/Main.java:43: error: not a statement
+			int coinChange(int[] v, int S) {
+			                            ^
+src/Main.java:43: error: ';' expected
+			int coinChange(int[] v, int S) {
+			                             ^
+src/Main.java:48: error: ';' expected
+			int coinChange(int[] v, int rem, int[] count) {
+			              ^
+src/Main.java:48: error: <identifier> expected
+			int coinChange(int[] v, int rem, int[] count) {
+			                       ^
+src/Main.java:48: error: not a statement
+			int coinChange(int[] v, int rem, int[] count) {
+			                            ^
+src/Main.java:48: error: ';' expected
+			int coinChange(int[] v, int rem, int[] count) {
+			                               ^
+src/Main.java:48: error: ';' expected
+			int coinChange(int[] v, int rem, int[] count) {
+			                                            ^
+9 errors
+========================================
+Compiling java/task-1...
+src/Main.java:43: error: ';' expected
+			int coinChange(int[] v, int S) {
+			              ^
+src/Main.java:43: error: <identifier> expected
+			int coinChange(int[] v, int S) {
+			                       ^
+src/Main.java:43: error: not a statement
+			int coinChange(int[] v, int S) {
+			                            ^
+src/Main.java:43: error: ';' expected
+			int coinChange(int[] v, int S) {
+			                             ^
+src/Main.java:48: error: ';' expected
+			int coinChange(int[] v, int rem, int[] count) {
+			              ^
+src/Main.java:48: error: <identifier> expected
+			int coinChange(int[] v, int rem, int[] count) {
+			                       ^
+src/Main.java:48: error: not a statement
+			int coinChange(int[] v, int rem, int[] count) {
+			                            ^
+src/Main.java:48: error: ';' expected
+			int coinChange(int[] v, int rem, int[] count) {
+			                               ^
+src/Main.java:48: error: ';' expected
+			int coinChange(int[] v, int rem, int[] count) {
+			                                            ^
+9 errors
+========================================
+Compiling java/task-1...
+src/Main.java:43: error: ';' expected
+			int coinChange(int[] v, int S) {
+			              ^
+src/Main.java:43: error: <identifier> expected
+			int coinChange(int[] v, int S) {
+			                       ^
+src/Main.java:43: error: not a statement
+			int coinChange(int[] v, int S) {
+			                            ^
+src/Main.java:43: error: ';' expected
+			int coinChange(int[] v, int S) {
+			                             ^
+src/Main.java:48: error: ';' expected
+			int coinChange(int[] v, int rem, int[] count) {
+			              ^
+src/Main.java:48: error: <identifier> expected
+			int coinChange(int[] v, int rem, int[] count) {
+			                       ^
+src/Main.java:48: error: not a statement
+			int coinChange(int[] v, int rem, int[] count) {
+			                            ^
+src/Main.java:48: error: ';' expected
+			int coinChange(int[] v, int rem, int[] count) {
+			                               ^
+src/Main.java:48: error: ';' expected
+			int coinChange(int[] v, int rem, int[] count) {
+			                                            ^
+9 errors
+========================================
+Compiling java/task-1...
+src/Main.java:43: error: ';' expected
+			int coinChange(int[] v, int S) {
+			              ^
+src/Main.java:43: error: <identifier> expected
+			int coinChange(int[] v, int S) {
+			                       ^
+src/Main.java:43: error: not a statement
+			int coinChange(int[] v, int S) {
+			                            ^
+src/Main.java:43: error: ';' expected
+			int coinChange(int[] v, int S) {
+			                             ^
+src/Main.java:48: error: ';' expected
+			int coinChange(int[] v, int rem, int[] count) {
+			              ^
+src/Main.java:48: error: <identifier> expected
+			int coinChange(int[] v, int rem, int[] count) {
+			                       ^
+src/Main.java:48: error: not a statement
+			int coinChange(int[] v, int rem, int[] count) {
+			                            ^
+src/Main.java:48: error: ';' expected
+			int coinChange(int[] v, int rem, int[] count) {
+			                               ^
+src/Main.java:48: error: ';' expected
+			int coinChange(int[] v, int rem, int[] count) {
+			                                            ^
+9 errors
+========================================
+Compiling java/task-1...
+src/Main.java:43: error: ';' expected
+			int coinChange(int[] v, int S) {
+			              ^
+src/Main.java:43: error: <identifier> expected
+			int coinChange(int[] v, int S) {
+			                       ^
+src/Main.java:43: error: not a statement
+			int coinChange(int[] v, int S) {
+			                            ^
+src/Main.java:43: error: ';' expected
+			int coinChange(int[] v, int S) {
+			                             ^
+src/Main.java:48: error: ';' expected
+			int coinChange(int[] v, int rem, int[] count) {
+			              ^
+src/Main.java:48: error: <identifier> expected
+			int coinChange(int[] v, int rem, int[] count) {
+			                       ^
+src/Main.java:48: error: not a statement
+			int coinChange(int[] v, int rem, int[] count) {
+			                            ^
+src/Main.java:48: error: ';' expected
+			int coinChange(int[] v, int rem, int[] count) {
+			                               ^
+src/Main.java:48: error: ';' expected
+			int coinChange(int[] v, int rem, int[] count) {
+			                                            ^
+9 errors
+========================================
+Compiling java/task-1...
+src/Main.java:43: error: ';' expected
+			int coinChange(int[] v, int S) {
+			              ^
+src/Main.java:43: error: <identifier> expected
+			int coinChange(int[] v, int S) {
+			                       ^
+src/Main.java:43: error: not a statement
+			int coinChange(int[] v, int S) {
+			                            ^
+src/Main.java:43: error: ';' expected
+			int coinChange(int[] v, int S) {
+			                             ^
+src/Main.java:48: error: ';' expected
+			int coinChange(int[] v, int rem, int[] count) {
+			              ^
+src/Main.java:48: error: <identifier> expected
+			int coinChange(int[] v, int rem, int[] count) {
+			                       ^
+src/Main.java:48: error: not a statement
+			int coinChange(int[] v, int rem, int[] count) {
+			                            ^
+src/Main.java:48: error: ';' expected
+			int coinChange(int[] v, int rem, int[] count) {
+			                               ^
+src/Main.java:48: error: ';' expected
+			int coinChange(int[] v, int rem, int[] count) {
+			                                            ^
+9 errors
+========================================

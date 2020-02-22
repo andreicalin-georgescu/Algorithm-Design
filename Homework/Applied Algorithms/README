@@ -1,0 +1,97 @@
+README TEMA 1 PA 
+-Georgescu Andrei Calin 324CA- 
+
+==Problema 1==
+
+Pentru solutionarea problemei 1, am folosit ideea de max heap, pentru a retine 
+cea mai buna mutare pe care oricare dintre cei doi jucatori o poate face. Pe 
+masura ce jocul se desfasoara, fiecare dintre cei doi jucatori alege pe rand cel 
+mai mare numar din lista (varful heapului). Ca si implementare propriu - zisa, 
+am folosit un std::priorityQueue. Vom itera prin queue cu pasul 2 pentru a 
+extrage cele mai mari doua numere si a le atribui sumei fiecarui jucator in 
+parte. Suplimentar, avem nevoie de o verificare intre cele doua atribui pentru a 
+fi siguri ca jocul poate continua (au mai ramas numere de extras). In final vom 
+scrie in fisier diferenta dintre cele doua sume.  
+
+==Problema 2==
+
+Pentru rezolvarea problemei 2, va trebui sa identificam daca eliminarea unui 
+element din sirul initial este sau nu benefica maximizarii diferentei de scor. 
+Pentru aceasta, vom sorta vectorul descrescator si ne vom folosi de inca doi 
+vectori diff si copy. Vom ramane in final cu un vector de N - K elemente, deci 
+cei doi vectori vor fi de dimensiune N - K + 1.
+In vectorul diff vom retine scorul maxim care se poate obtine eliminand 
+elemente, iar vectorul copy se va actualiza la fiecare pas pentru a determina 
+daca ar trebui eliminat numarul verificat din sirul initial. Vectorul diff va fi
+initializat cu 0 pe pozitia 0 (pentru a putea verifica cazul in care eliminam 
+primul element, cel mai mare din sir). A fost follsita valoarea -123456789 cu 
+care vom initializa vectorul copy si restul vectorului diff (pentru a trece 
+de prima comparatie cu fiecare numar din sir). Vom avea doua bucle de 
+verificare, una care parcurge toate elementele din sir, iar alta care porneste 
+de la inceputul acestuia si se va opri la pozitia curenta din sir sau daca am 
+depasit dimensiunea de N - K. Acest lucru este necesar pentru a ne asigura ca 
+reordonarea vectorului initial nu afecteaza logica jocului (cei doi jucatori vor
+alege mereu optim, asa ca aceasta verificare ajuta la conservarea acestei logici 
+de joc). Se verifica apoi daca este randul lui Tuzgu sau al Ritzei (verificand 
+paritatea contorului care incrementeaza pe sirul de numere). O mutare benefica 
+inseamna ca diferenta dintre cei doi pe turul lui Tuzgu va creste. Daca acesta 
+este cazul, in vectorul copy vom salva suma dintre numarul verificat la pasul 
+curent si scorul de la pasul anterior. Daca este randul Ritzei, o mutare 
+benefica inseamna ca diferenta dintre cei doi va scadea, deci in vectorul 
+copy vom salva diferentadintre scorul de la pasul anterior si numarul verificat 
+la pasul curent.
+
+La verificarea unui nou numar, se copiaza vectorul copy in vectorul diff, 
+practic actualizand scorurile maxime. Pe pozitia N - K din vectorul diff vom 
+obtine chiar diferenta maxima dintre Tuzgu si Ritza dupa eliminarea celor K 
+numere.
+
+==Problema 3==
+
+Pentru solutionarea acestei probleme, vom aborda o implementare de programare 
+dinamica intr-o maniera bottom-up, asemenea celor prezentate in laborator.
+
+Vom analiza simultan cazul in care se alege ultimul numar din sir sau primul. 
+Asadar vom folosi doi contori, unul care porneste de la inceputul sirului de nu-
+mere(i) si unul care porneste de la sfarsitul acestuia(j).
+
+Pentru a determina cea mai buna mutare pentru Tuzgu, va trebui sa gandim si 
+urmatoarele 2 mutari din joc si sa o alegem pe cea mai buna dintre acestea.
+Matricea MoveValue va retine valoarea maxima pe care Tuzgu o poate colecta din 
+sirul curent de numere. La fiecare pas, Tuzgu va avea doua optiuni, sa aleaga 
+numarul de pe pozitia i(de la inceput) sau de pe pozitia j(de la sfarsit).
+
+Daca Tuzgu va alege numarul de pe pozitia i, atunci Ritza va fi fortata sa alea-
+ga ori numarul de pe pozitia j sau cel de pe pozitia i + 1. Ritza joaca optim, 
+deci va aplica aceasi strategie ca Tuzgu. Astfel ca daca Ritza alege numarul de 
+pe pozitia i + 1, Tuzgu va trebui sa aleaga un numar de pe pozitia i + 2 sau de 
+pe pozitia j. In cazul in care Ritza alege numarul de pe pozitia j, atunci Tuzgu 
+va trebui sa aleaga un numar de pe pozitia i + 1 sau j - 1. Astfel ca obtinem 
+o recurenta pentru regula de joc a lui Tuzgu, in cazul in care alege numarul de 
+pe pozitia i: numbers[i] + Min{MoveValue(i+2,j), MoveValue(i+1, j-1)}, unde 
+numbers reprezinta vectorul de numere pentru joc.
+
+Daca Tuzgu va alege numarul de pe pozitia j, atunci Ritza va fi obligata sa 
+aleaga ori numarul de pe pozitia i, sau cel de pe pozitia j - 1. Daca, ulterior, 
+Ritza alege numarul de pe pozitia i, Tuzgu poate alege un numar de pe pozitia 
+i + 1 sau j - 1. Altfel, daca Ritza alege numarul de pe pozitia j - 1, Tuzgu va 
+fi fortat sa aleaga un numar de pe pozitia i sau de pe pozitia j - 2. Astfel ob-
+tinem recurenta pentru regula de joc a lui Tuzgu, in cazul in care alege numarul 
+de pe pozitia j: numbers[j] + Min{MoveValue(i+1,j-1), MoveValue(i, j-2)}.
+
+Cea mai buna mutare la pasul curent a lui Tuzgu o vom retine in MoveValue[i][j], 
+aceasra fiind maximul dintre cele doua formule calculate anterior. 
+Suma punctelor lui Tuzgu se va afla la MoveValue[0][N - 1];
+
+Pentru determinarea diferentei de scor, observa, ca scorul Ritzei ar fi scorul 
+total posibil - scorul lui Tuzgu, care aplica strategia de mai sus. Dar, pentru 
+a limita numarul de variabile folosite, diferenta care trebuie afisata va fi de 
+forma: dif = 2 * scor_Tuzgu - scor_Total.
+
+Drept referinta am folosit resursele de pe site-ul geeksforgeeks legate de
+programare dinamica.
+
+
+
+
+
